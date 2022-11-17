@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(session({
     store: MongoStore.create({
-        mongoUrl: 'mongodb+srv://estebanzarate:nERlfPKfZtCRTu0K@cluster0.hggfd.mongodb.net/?retryWrites=true&w=majority',
+        mongoUrl: 'mongodb+srv://user:user@clustercoderbackend.yov16h5.mongodb.net/?retryWrites=true&w=majority',
         mongoOptions: advancedOptions,
         ttl: 60,
         collectionName: 'sessions'
