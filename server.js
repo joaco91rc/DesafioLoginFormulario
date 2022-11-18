@@ -59,6 +59,7 @@ io.on('connection', async socket => {
         io.sockets.emit('messages', dbMessages);
     })
 });
+//HOLA
 
 const server = httpserver.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 server.on('error', () => console.log(`Error: ${err}`));
